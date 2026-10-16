@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://openweathermap.org/payload/api/media/file/50d.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Weather API</title>
+</head>
+<body>
+    <header>
+        <img src="images/weatherlogo.png" alt="Weather API">
+        <h2>Weather API</h2>
+    </header>
+
+    <main>
+        <form class="weatherForm" action="">
+            <input type="text" class="cityInput" id="cityInput" placeholder="Enter City" autofocus>
+            <input type="submit" name="submit" value="Get Weather">
+        </form> 
+
+        <div class="card" style="display: none;">
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Michael Roberts Productions</p>
+    </footer>
+</body>
+</html>
+<script src="js/weatherapi.js"></script>
