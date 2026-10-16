@@ -81,9 +81,8 @@ function displayWeather(data) {
     descDisp.textContent = description;
 
     // build icon link
-    emojiLink = "url('https://openweathermap.org/payload/api/media/file/";
-    emojiLink += getWeatherEmoji(id);
-    emojiLink += "d.png')";
+    emojiLink = "url('https://openweathermap.org/payload/api/media/file/" + getWeatherEmoji(id) + "d.png')";
+    
     emojiDisp.style.backgroundImage = emojiLink;
 
     // add the class names to the html elements so they display with the correct layout
